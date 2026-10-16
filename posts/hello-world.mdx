@@ -3,8 +3,9 @@ title: "Hello, world"
 description: "The first post on this blog."
 date: "2026-10-07"
 slug: "hello-world"
+image: "/images/hello-world/galaxy-layers-cod-ncag-1xuruu-585d4c71.webp"
 tags:
-  - meta
+  - "meta"
 published: true
 ---
 
@@ -12,3 +13,213 @@ This blog is stored in a GitHub repository. Every post is an MDX file in
 `posts/`, and images live in `public/images/<post-slug>/`.
 
 Edit or delete this post from the dashboard.
+
+This post is a tour of everything the editor can do. Text can be **bold**, _italic_, ~~struck through~~, `inline code`, or a [link to the Next.js docs](https://nextjs.org/docs). Press <kbd>⌘</kbd> + <kbd>K</kbd> to edit a link, and use <mark>highlighted text</mark>, H<sub>2</sub>O or E = mc<sup>2</sup> for inline HTML.
+
+## Headings
+
+Use the three heading levels to structure a pos
+
+This post is a tour of everything the editor can do. Text can be **bold**, _italic_, ~~struck through~~, `inline code`, or a [link to the Next.js docs](https://nextjs.org/docs). Press <kbd>⌘</kbd> + <kbd>K</kbd> to edit a link, and use <mark>highlighted text</mark>, H<sub>2</sub>O or E = mc<sup>2</sup> for inline HTML.
+
+## Headings
+
+Use the three heading levels to structure a post.
+
+### A subheading
+
+Subheadings group related paragraphs.
+
+#### A small heading
+
+Small headings work for minor sections.
+
+## Lists
+
+A bulleted list:
+
+- Write posts in a rich-text editor
+- Commit everything to GitHub
+  - Posts go in `posts/`
+  - Images go in `public/images/`
+- Serve the blog on your own domain
+
+A numbered list:
+
+1. Install the GitHub App
+2. Initialize the blog
+3. Publish your first post
+
+A to-do list:
+
+- [x] Set up the repository
+- [x] Configure the domain
+- [ ] Write the second post
+
+## Quote
+
+> Simplicity is prerequisite for reliability.
+>
+> — Edsger W. Dijkstra
+
+## Code
+
+A TypeScript block with syntax highlighting:
+
+```ts
+type Post = {
+  slug: string;
+  title: string;
+  published: boolean;
+};
+
+export function publishedPosts(posts: Post[]): Post[] {
+  return posts.filter((post) => post.published);
+}
+```
+
+And a shell one:
+
+```bash
+npm install
+npm run dev -- -p 3005
+```
+
+## Table
+
+| Feature    |  Shortcut  | Where it lives |
+| :--------- | :--------: | -------------: |
+| Bold       | `**text**` | Formatting bar |
+| Heading    |    `## `   |       `/` menu |
+| Code block |   ` ``` `  |       `/` menu |
+| Link       |    `⌘K`    | Formatting bar |
+
+## Callouts
+
+<Callout type="note">
+  Notes are for extra context the reader might want.
+</Callout>
+
+<Callout type="tip">
+  Tips point out a faster way to do something.
+</Callout>
+
+<Callout type="warning">
+  Warnings flag things that can go wrong, like saving over a post someone else just edited.
+</Callout>
+
+## Image
+
+![A misty forest](https://picsum.photos/id/1018/1200/600)
+
+---
+
+## Raw MDX
+
+Anything the editor can't show as rich text stays as an editable MDX block:
+
+<details>
+  <summary>Click to expand</summary>
+
+  This content is hidden until the reader opens it.
+</details>
+
+t.
+
+### A subheading
+
+Subheadings group related paragraphs.
+
+#### A small heading
+
+Small headings work for minor sections.
+
+## Lists
+
+A bulleted list:
+
+- Write posts in a rich-text editor
+- Commit everything to GitHub
+  - Posts go in `posts/`
+  - Images go in `public/images/`
+- Serve the blog on your own domain
+
+A numbered list:
+
+1. Install the GitHub App
+2. Initialize the blog
+3. Publish your first post
+
+A to-do list:
+
+- [x] Set up the repository
+- [x] Configure the domain
+- [ ] Write the second post
+
+## Quote
+
+> Simplicity is prerequisite for reliability.
+>
+> — Edsger W. Dijkstra
+
+## Code
+
+A TypeScript block with syntax highlighting:
+
+```ts
+type Post = {
+  slug: string;
+  title: string;
+  published: boolean;
+};
+
+export function publishedPosts(posts: Post[]): Post[] {
+  return posts.filter((post) => post.published);
+}
+```
+
+And a shell one:
+
+```bash
+npm install
+npm run dev -- -p 3005
+```
+
+## Table
+
+| Feature    |  Shortcut  | Where it lives |
+| :--------- | :--------: | -------------: |
+| Bold       | `**text**` | Formatting bar |
+| Heading    |    `## `   |       `/` menu |
+| Code block |   ` ``` `  |       `/` menu |
+| Link       |    `⌘K`    | Formatting bar |
+
+## Callouts
+
+<Callout type="note">
+  Notes are for extra context the reader might want.
+</Callout>
+
+<Callout type="tip">
+  Tips point out a faster way to do something.
+</Callout>
+
+<Callout type="warning">
+  Warnings flag things that can go wrong, like saving over a post someone else just edited.
+</Callout>
+
+## Image
+
+![A misty forest](https://picsum.photos/id/1018/1200/600)
+
+---
+
+## Raw MDX
+
+Anything the editor can't show as rich text stays as an editable MDX block:
+
+<details>
+  <summary>Click to expand</summary>
+
+  This content is hidden until the reader opens it.
+</details>
