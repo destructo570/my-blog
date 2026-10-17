@@ -1,9 +1,15 @@
 {
   "title": "3D and Graphics",
-  "description": "",
+  "description": "How pixels get from your code to the screen.",
   "categories": [
     {
       "title": "Getting started",
+      "posts": [
+        "hello-world"
+      ]
+    },
+    {
+      "title": "Going deeper",
       "posts": []
     }
   ]
