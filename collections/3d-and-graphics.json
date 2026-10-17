@@ -3,14 +3,14 @@
   "description": "How pixels get from your code to the screen.",
   "categories": [
     {
-      "title": "Going deeper",
-      "posts": []
-    },
-    {
       "title": "Getting started",
       "posts": [
         "hello-world"
       ]
+    },
+    {
+      "title": "Going deeper",
+      "posts": []
     }
   ]
 }
